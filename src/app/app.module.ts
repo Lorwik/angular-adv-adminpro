@@ -7,13 +7,16 @@ import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
-import { NopagesfoundComponent } from './pages/nopagesfound/nopagesfound.component';
+import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NopagesfoundComponent,
+    NopagefoundComponent,
   ],
   imports: [
     BrowserModule,
